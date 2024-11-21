@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+           <meta charset = 'utf-8'>
+           <title>TMC Student Club</title>
+          <link rel="stylesheet" type="text/css" href="L3TutoStyle.css"/>
+          <script language="javascript" type="text/javascript" src="Special.js">
+          </script>
+</head>
+
+<body>
+<center>
+<img src="TMC-Logo-3.jpg" margin="auto" width="370px" height="110px"></img>
+<p>
+   <nav>
+      <div class="topnav" id="myTopnav">
+           <a href="AdminView.php">View Members</a>
+           <a href="AdminAdd.html">Add New Member</a>
+           <a href="AdminEdit.php">Edit Member</a>
+           <a href="AdminDelete.php">Delete Member</a>
+           <a href="Log_out.php">Log Out</a>      
+      </div>
+   </nav>
+   </p>
+</center>
+
+<div class="entries">
+<h1 align="center">Registration Form</h1>
+</br>
+<form name="registerForm" action ="AdminReg.php" onsubmit="return validate()" method="post">
+<table border=0 cellpadding=5 align="center">
+<tr>
+   <td>Full name</td>
+   <td><input type="text" name="fname" size="30" required></td>
+</tr>
+<tr>
+<td>Student ID :</td>
+<td><input type="text" name="ssid" size="30" required></td></tr>
+<tr>
+   <td>Contact Non:</td>
+   <td><input type="text" name="telno" size="30" required></td>
+</tr>
+<tr>
+    <td>E-Mail Address:</td>
+    <td><input type="text" name="email" size="30" required></td>
+</tr>
+<tr>
+     <td>Gender</td>
+     <td><input type="radio" name="gender" value="Male" checked>Male
+             <input type="radio" name="gender" value="Female">Female
+     </td>
+</tr>
+<tr>
+    <td colspan=2 style="text-align:center">
+    <input type="submit" value="submit"><input type="reset" value="Reset Form">
+    </td>
+</tr>
+</table>
+</form>
+</div>
+</body>
+</html>
+
+
+
+

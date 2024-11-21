@@ -1,0 +1,255 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{A0064FA4-6E75-479C-87D5-62FB1BDDE449}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>BUCAssignment</RootNamespace>
+    <AssemblyName>BUCAssignment</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="ComponentFactory.Krypton.Docking">
+      <HintPath>..\..\..\..\Downloads\ComponentFactory.Krypton.Docking.dll</HintPath>
+    </Reference>
+    <Reference Include="ComponentFactory.Krypton.Navigator">
+      <HintPath>..\..\..\..\Downloads\ComponentFactory.Krypton.Navigator.dll</HintPath>
+    </Reference>
+    <Reference Include="ComponentFactory.Krypton.Ribbon">
+      <HintPath>..\..\..\..\Downloads\ComponentFactory.Krypton.Ribbon.dll</HintPath>
+    </Reference>
+    <Reference Include="ComponentFactory.Krypton.Toolkit">
+      <HintPath>..\..\..\..\Downloads\ComponentFactory.Krypton.Toolkit.dll</HintPath>
+    </Reference>
+    <Reference Include="ComponentFactory.Krypton.Workspace">
+      <HintPath>..\..\..\..\Downloads\ComponentFactory.Krypton.Workspace.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AdminDelete.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminDelete.Designer.cs">
+      <DependentUpon>AdminDelete.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AdminInsert.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminInsert.Designer.cs">
+      <DependentUpon>AdminInsert.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AdminInsertafterview.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminInsertafterview.Designer.cs">
+      <DependentUpon>AdminInsertafterview.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AdminInsertafterview1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminInsertafterview1.Designer.cs">
+      <DependentUpon>AdminInsertafterview1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AdminInsertafterview2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminInsertafterview2.Designer.cs">
+      <DependentUpon>AdminInsertafterview2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AdminSearch.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminSearch.Designer.cs">
+      <DependentUpon>AdminSearch.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AdminUpdate.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminUpdate.Designer.cs">
+      <DependentUpon>AdminUpdate.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AdminUpdate1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminUpdate1.Designer.cs">
+      <DependentUpon>AdminUpdate1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AdminUpdate2cs.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminUpdate2cs.Designer.cs">
+      <DependentUpon>AdminUpdate2cs.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AdminUpdate3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminUpdate3.Designer.cs">
+      <DependentUpon>AdminUpdate3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AdminUpdate4.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminUpdate4.Designer.cs">
+      <DependentUpon>AdminUpdate4.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AdminView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminView.Designer.cs">
+      <DependentUpon>AdminView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Allclasses.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Allclasses.Designer.cs">
+      <DependentUpon>Allclasses.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EnrollmentForm1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EnrollmentForm1.Designer.cs">
+      <DependentUpon>EnrollmentForm1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form2.Designer.cs">
+      <DependentUpon>Form2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form3.Designer.cs">
+      <DependentUpon>Form3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Updatepreview.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Updatepreview.Designer.cs">
+      <DependentUpon>Updatepreview.cs</DependentUpon>
+    </Compile>
+    <Compile Include="username.cs" />
+    <Compile Include="Validation.cs" />
+    <EmbeddedResource Include="AdminDelete.resx">
+      <DependentUpon>AdminDelete.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdminInsert.resx">
+      <DependentUpon>AdminInsert.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdminInsertafterview.resx">
+      <DependentUpon>AdminInsertafterview.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdminInsertafterview1.resx">
+      <DependentUpon>AdminInsertafterview1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdminInsertafterview2.resx">
+      <DependentUpon>AdminInsertafterview2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdminSearch.resx">
+      <DependentUpon>AdminSearch.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdminUpdate.resx">
+      <DependentUpon>AdminUpdate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdminUpdate1.resx">
+      <DependentUpon>AdminUpdate1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdminUpdate2cs.resx">
+      <DependentUpon>AdminUpdate2cs.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdminUpdate3.resx">
+      <DependentUpon>AdminUpdate3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdminUpdate4.resx">
+      <DependentUpon>AdminUpdate4.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdminView.resx">
+      <DependentUpon>AdminView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Allclasses.resx">
+      <DependentUpon>Allclasses.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EnrollmentForm1.resx">
+      <DependentUpon>EnrollmentForm1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form2.resx">
+      <DependentUpon>Form2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form3.resx">
+      <DependentUpon>Form3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Updatepreview.resx">
+      <DependentUpon>Updatepreview.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
